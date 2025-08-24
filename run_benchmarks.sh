@@ -27,7 +27,6 @@ output_dir="/mnt/data8tb/Documents/lm-evaluation-harness/results/bench_project_1
 # CUDA device
 device="cuda:0"
 
-        # --model_args pretrained="${model_path}",trust_remote_code=True,device_map=auto \
 # Loop through models
 for model_path in "${models[@]}"; do
 
