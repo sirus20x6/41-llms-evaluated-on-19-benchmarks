@@ -33,7 +33,7 @@ Equivalent RTX 5090 GPU time at 100% utilization. GPU utilization was logged onc
 
 <p align="center">
   <img src="results_json/gpu_util_equation_dark.svg#gh-dark-mode-only"  alt="Equation">
-  <img src="results_json/gpu_util_time_light.svg#gh-light-mode-only" alt="Equation">
+  <img src="results_json/gpu_util_equation_light.svg#gh-light-mode-only" alt="Equation">
 </p>
 
 
