@@ -26,8 +26,16 @@ Total system runtime (wall-clock time) spent completing all benchmarks for the m
 Equivalent RTX 5090 GPU time at 100% utilization. GPU utilization was logged once per minute, and the effective utilization time was calculated using the following equation:
 
 
+<!-- <p align="center">
+    <img src="results_json/gpu_util_equation_dark.svg" alt="equation">
+</p> -->
+
 <p align="center">
-    <img src="results_json/gpu_util_equation.svg" alt="equation">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="results_json/gpu_util_equation_dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="results_json/gpu_util_time_light.svg">
+    <img src="assets/equations/gpu_util_time_light.svg" alt="Equation">
+  </picture>
 </p>
 
 
