@@ -24,9 +24,12 @@ Total system runtime (wall-clock time) spent completing all benchmarks for the m
 ### GPU Util Time: 
 Equivalent RTX 5090 GPU time at 100% utilization. GPU utilization was logged once per minute, and the effective utilization time was calculated using the following equation:
 
-$$
-T_{util-100\%} = \sum_i \left(\frac{u_i}{100}\right) \Delta t
-$$
+
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?T_{util-100\%}=\sum_i\left(\frac{u_i}{100}\right)\Delta{t}" alt="equation">
+</p>
+
+
 **Where:**
 - interval: 1 minute
 - $u_i$ = GPU utilization (%) during interval $i$
