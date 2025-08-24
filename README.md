@@ -26,7 +26,7 @@ Equivalent RTX 5090 GPU time at 100% utilization. GPU utilization was logged onc
 
 
 <p align="center">
-    <img src="https://latex.codecogs.com/svg.latex?\color{white}T_{util-100\%}=\sum_i\left(\frac{u_i}{100}\right)\Delta{t}" alt="equation">
+    <img src="results_json/gpu_util_equation.svg" alt="equation">
 </p>
 
 
