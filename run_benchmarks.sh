@@ -6,16 +6,15 @@ COMBINED_LOG_FILE="/mnt/data8tb/Documents/lm-evaluation-harness/results/bench_pr
 # List of HuggingFace-style model directories
 models=(
 
-    # "/mnt/data8tb/Documents/llm/llm_models/deepseek-ai_deepseek-moe-16b-base"
-    # "/mnt/data8tb/Documents/llm/llm_models/Deepseek-ai_deepseek-moe-16b-chat"
-    # "/mnt/data8tb/Documents/llm/llm_models/Qwen_Qwen-7B-Chat"
-    # "/mnt/data8tb/Documents/llm/llm_models/Qwen_Qwen-7B"
-    # "/mnt/data8tb/Documents/llm/llm_models/baichuan-inc_Baichuan2-13B-Chat"
-    # "/mnt/data8tb/Documents/llm/llm_models/Qwen_Qwen2.5-14B-Instruct"
-    # "/mnt/data8tb/Documents/llm/llm_models/Qwen_Qwen3-14B"
+     "/mnt/data8tb/Documents/llm/llm_models/deepseek-ai_deepseek-moe-16b-base"
+     "/mnt/data8tb/Documents/llm/llm_models/Deepseek-ai_deepseek-moe-16b-chat"
+     "/mnt/data8tb/Documents/llm/llm_models/Qwen_Qwen-7B-Chat"
+     "/mnt/data8tb/Documents/llm/llm_models/Qwen_Qwen-7B"
+     "/mnt/data8tb/Documents/llm/llm_models/baichuan-inc_Baichuan2-13B-Chat"
+     "/mnt/data8tb/Documents/llm/llm_models/Qwen_Qwen2.5-14B-Instruct"
+     "/mnt/data8tb/Documents/llm/llm_models/Qwen_Qwen3-14B"
 
 
-    "/mnt/data8tb/Documents/llm/llm_models/openai_gpt-oss-20b"
 )
 
 # Benchmark task (customize if needed)
