@@ -37,11 +37,12 @@ Equivalent RTX 5090 GPU time at 100% utilization. GPU utilization was logged onc
 - u_i = GPU utilization (%) during interval $i$
 - Delta t = duration of interval $i$ (in seconds)
 
+### Mean Score:
+Average performance across benchmark tasks, reported as the arithmetic mean of each task’s score. Values range from 0 to 1, with higher scores indicating better overall accuracy.
+
 ### Rank:
 Overall and group ranks are calculated by averaging task scores, which are reported on a scale between 0 and 1.
 
-### Mean Score:
-Average performance across benchmark tasks, reported as the arithmetic mean of each task’s score. Values range from 0 to 1, with higher scores indicating better overall accuracy.
 
 ---
 ### Repository Contents
