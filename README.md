@@ -52,189 +52,189 @@ Benchmarks were referenced from [leobeeson/llm_benchmarks](https://github.com/le
 
 
 # Overall Rank (Average Rank)
-| Model Name                                | Total Time   | GPU Util Time   |   Overall Rank |   Mean Score |
-|:------------------------------------------|:-------------|:----------------|---------------:|-------------:|
-| google_gemma-3-12b-it                     | 15h 45m      | 14h 8m          |              1 |       0.6038 |
-| Qwen_Qwen3-14B (8bit)                     | 29h 45m      | 17h 29m         |              2 |       0.5961 |
-| openchat_openchat-3.6-8b-20240522         | 7h 51m       | 6h 59m          |              3 |       0.5871 |
-| Qwen_Qwen3-8B                             | 15h 31m      | 13h 44m         |              4 |       0.5859 |
-| Qwen_Qwen2.5-7B-Instruct                  | 9h 36m       | 8h 33m          |              5 |       0.5788 |
-| Qwen_Qwen2.5-14B-Instruct (8bit)          | 52h 44m      | 29h 32m         |              6 |       0.5775 |
-| 01-ai_Yi-1.5-9B                           | 11h 43m      | 10h 26m         |              7 |       0.5676 |
-| Qwen_Qwen2.5-7B-Instruct-1M               | 11h 17m      | 10h 10m         |              8 |       0.5672 |
-| meta-llama_Llama-3.1-8B-Instruct          | 12h 19m      | 10h 52m         |              9 |       0.5653 |
-| 01-ai_Yi-1.5-9B-Chat                      | 13h 54m      | 12h 15m         |             10 |       0.5621 |
-| mistralai_Ministral-8B-Instruct-2410      | 10h 46m      | 9h 27m          |             11 |       0.5576 |
-| meta-llama_Meta-Llama-3-8B-Instruct       | 6h 30m       | 5h 46m          |             12 |       0.5528 |
-| Qwen_Qwen3-4B                             | 5h 51m       | 5h 3m           |             13 |       0.551  |
-| NousResearch_Hermes-2-Pro-Mistral-7B      | 8h 27m       | 7h 28m          |             14 |       0.548  |
-| mistralai_Mistral-7B-Instruct-v0.3        | 8h 38m       | 7h 41m          |             15 |       0.5451 |
-| google_gemma-3-4b-it                      | 4h 51m       | 3h 50m          |             16 |       0.5368 |
-| 01-ai_Yi-1.5-6B-Chat                      | 8h 4m        | 7h 1m           |             17 |       0.5335 |
-| 01-ai_Yi-1.5-6B                           | 4h 28m       | 3h 54m          |             18 |       0.5312 |
-| Qwen_Qwen2-7B-Instruct                    | 11h 30m      | 10h 11m         |             19 |       0.5271 |
-| deepseek-ai_DeepSeek-R1-0528-Qwen3-8B     | 17h 57m      | 15h 30m         |             20 |       0.5219 |
-| meta-llama_Llama-3.2-3B-Instruct          | 7h 12m       | 5h 57m          |             21 |       0.5048 |
-| Qwen_Qwen2.5-3B-Instruct                  | 7h 48m       | 6h 30m          |             22 |       0.4939 |
-| Qwen_Qwen2.5-Math-7B                      | 27h 21m      | 24h 38m         |             23 |       0.4907 |
-| deepseek-ai_deepseek-llm-7b-chat          | 10h 6m       | 9h 8m           |             24 |       0.4869 |
-| deepseek-ai_DeepSeek-R1-Distill-Llama-8B  | 11h 46m      | 10h 36m         |             25 |       0.483  |
-| meta-llama_Llama-2-13b-hf                 | 19h 21m      | 17h 38m         |             26 |       0.4819 |
-| meta-llama_Llama-2-13b-chat-hf            | 17h 8m       | 15h 37m         |             27 |       0.4813 |
-| deepseek-ai_DeepSeek-R1-Distill-Qwen-7B   | 6h 28m       | 5h 43m          |             28 |       0.4644 |
-| Qwen_Qwen2.5-1.5B-Instruct                | 3h 20m       | 2h 36m          |             29 |       0.4608 |
-| Qwen_Qwen3-1.7B                           | 4h 25m       | 3h 36m          |             30 |       0.4597 |
-| Qwen_Qwen2.5-Math-7B-Instruct             | 5h 37m       | 4h 57m          |             31 |       0.4596 |
-| meta-llama_Llama-2-7b-chat-hf             | 6h 57m       | 6h 7m           |             32 |       0.4525 |
-| meta-llama_Llama-2-7b-hf                  | 5h 42m       | 4h 59m          |             33 |       0.4516 |
-| deepseek-ai_deepseek-llm-7b-base          | 7h 11m       | 6h 26m          |             34 |       0.4451 |
-| deepseek-ai_deepseek-math-7b-rl           | 8h 2m        | 7h 12m          |             35 |       0.4419 |
-| meta-llama_Llama-3.2-1B-Instruct          | 3h 30m       | 2h 35m          |             36 |       0.4219 |
-| google_gemma-3-1b-it                      | 6h 50m       | 4h 52m          |             37 |       0.4013 |
-| deepseek-ai_DeepSeek-R1-Distill-Qwen-1.5B | 3h 40m       | 2h 52m          |             38 |       0.3986 |
-| Qwen_Qwen2.5-Math-1.5B-Instruct           | 3h 25m       | 2h 39m          |             39 |       0.3838 |
-| Qwen_Qwen3-0.6B                           | 3h 45m       | 2h 53m          |             40 |       0.3816 |
-| Qwen_Qwen2.5-0.5B-Instruct                | 2h 34m       | 1h 48m          |             41 |       0.3799 |
+| Model Name                                | Total Time   |   Mean Score | GPU Util Time   |   Overall Rank |
+|:------------------------------------------|:-------------|-------------:|:----------------|---------------:|
+| google_gemma-3-12b-it                     | 15h 45m      |       0.6038 | 14h 8m          |              1 |
+| Qwen_Qwen3-14B (8bit)                     | 29h 45m      |       0.5961 | 17h 29m         |              2 |
+| openchat_openchat-3.6-8b-20240522         | 7h 51m       |       0.5871 | 6h 59m          |              3 |
+| Qwen_Qwen3-8B                             | 15h 31m      |       0.5859 | 13h 44m         |              4 |
+| Qwen_Qwen2.5-7B-Instruct                  | 9h 36m       |       0.5788 | 8h 33m          |              5 |
+| Qwen_Qwen2.5-14B-Instruct (8bit)          | 52h 44m      |       0.5775 | 29h 32m         |              6 |
+| 01-ai_Yi-1.5-9B                           | 11h 43m      |       0.5676 | 10h 26m         |              7 |
+| Qwen_Qwen2.5-7B-Instruct-1M               | 11h 17m      |       0.5672 | 10h 10m         |              8 |
+| meta-llama_Llama-3.1-8B-Instruct          | 12h 19m      |       0.5653 | 10h 52m         |              9 |
+| 01-ai_Yi-1.5-9B-Chat                      | 13h 54m      |       0.5621 | 12h 15m         |             10 |
+| mistralai_Ministral-8B-Instruct-2410      | 10h 46m      |       0.5576 | 9h 27m          |             11 |
+| meta-llama_Meta-Llama-3-8B-Instruct       | 6h 30m       |       0.5528 | 5h 46m          |             12 |
+| Qwen_Qwen3-4B                             | 5h 51m       |       0.551  | 5h 3m           |             13 |
+| NousResearch_Hermes-2-Pro-Mistral-7B      | 8h 27m       |       0.548  | 7h 28m          |             14 |
+| mistralai_Mistral-7B-Instruct-v0.3        | 8h 38m       |       0.5451 | 7h 41m          |             15 |
+| google_gemma-3-4b-it                      | 4h 51m       |       0.5368 | 3h 50m          |             16 |
+| 01-ai_Yi-1.5-6B-Chat                      | 8h 4m        |       0.5335 | 7h 1m           |             17 |
+| 01-ai_Yi-1.5-6B                           | 4h 28m       |       0.5312 | 3h 54m          |             18 |
+| Qwen_Qwen2-7B-Instruct                    | 11h 30m      |       0.5271 | 10h 11m         |             19 |
+| deepseek-ai_DeepSeek-R1-0528-Qwen3-8B     | 17h 57m      |       0.5219 | 15h 30m         |             20 |
+| meta-llama_Llama-3.2-3B-Instruct          | 7h 12m       |       0.5048 | 5h 57m          |             21 |
+| Qwen_Qwen2.5-3B-Instruct                  | 7h 48m       |       0.4939 | 6h 30m          |             22 |
+| Qwen_Qwen2.5-Math-7B                      | 27h 21m      |       0.4907 | 24h 38m         |             23 |
+| deepseek-ai_deepseek-llm-7b-chat          | 10h 6m       |       0.4869 | 9h 8m           |             24 |
+| deepseek-ai_DeepSeek-R1-Distill-Llama-8B  | 11h 46m      |       0.483  | 10h 36m         |             25 |
+| meta-llama_Llama-2-13b-hf                 | 19h 21m      |       0.4819 | 17h 38m         |             26 |
+| meta-llama_Llama-2-13b-chat-hf            | 17h 8m       |       0.4813 | 15h 37m         |             27 |
+| deepseek-ai_DeepSeek-R1-Distill-Qwen-7B   | 6h 28m       |       0.4644 | 5h 43m          |             28 |
+| Qwen_Qwen2.5-1.5B-Instruct                | 3h 20m       |       0.4608 | 2h 36m          |             29 |
+| Qwen_Qwen3-1.7B                           | 4h 25m       |       0.4597 | 3h 36m          |             30 |
+| Qwen_Qwen2.5-Math-7B-Instruct             | 5h 37m       |       0.4596 | 4h 57m          |             31 |
+| meta-llama_Llama-2-7b-chat-hf             | 6h 57m       |       0.4525 | 6h 7m           |             32 |
+| meta-llama_Llama-2-7b-hf                  | 5h 42m       |       0.4516 | 4h 59m          |             33 |
+| deepseek-ai_deepseek-llm-7b-base          | 7h 11m       |       0.4451 | 6h 26m          |             34 |
+| deepseek-ai_deepseek-math-7b-rl           | 8h 2m        |       0.4419 | 7h 12m          |             35 |
+| meta-llama_Llama-3.2-1B-Instruct          | 3h 30m       |       0.4219 | 2h 35m          |             36 |
+| google_gemma-3-1b-it                      | 6h 50m       |       0.4013 | 4h 52m          |             37 |
+| deepseek-ai_DeepSeek-R1-Distill-Qwen-1.5B | 3h 40m       |       0.3986 | 2h 52m          |             38 |
+| Qwen_Qwen2.5-Math-1.5B-Instruct           | 3h 25m       |       0.3838 | 2h 39m          |             39 |
+| Qwen_Qwen3-0.6B                           | 3h 45m       |       0.3816 | 2h 53m          |             40 |
+| Qwen_Qwen2.5-0.5B-Instruct                | 2h 34m       |       0.3799 | 1h 48m          |             41 |
 
 
 # Reasoning & Math (Average Rank)
 
-| Model Name                                | Total Time   | GPU Util Time   |   Reasoning & Math Avg. Rank |   Reasoning & Math Mean Score |
-|:------------------------------------------|:-------------|:----------------|-----------------------------:|------------------------------:|
-| google_gemma-3-12b-it                     | 15h 45m      | 14h 8m          |                            1 |                        0.6266 |
-| Qwen_Qwen3-8B                             | 15h 31m      | 13h 44m         |                            2 |                        0.6214 |
-| Qwen_Qwen3-14B (8bit)                     | 29h 45m      | 17h 29m         |                            3 |                        0.586  |
-| Qwen_Qwen3-4B                             | 5h 51m       | 5h 3m           |                            4 |                        0.5712 |
-| Qwen_Qwen2.5-7B-Instruct                  | 9h 36m       | 8h 33m          |                            5 |                        0.5541 |
-| openchat_openchat-3.6-8b-20240522         | 7h 51m       | 6h 59m          |                            6 |                        0.5505 |
-| Qwen_Qwen2.5-14B-Instruct (8bit)          | 52h 44m      | 29h 32m         |                            7 |                        0.5488 |
-| mistralai_Ministral-8B-Instruct-2410      | 10h 46m      | 9h 27m          |                            8 |                        0.5446 |
-| 01-ai_Yi-1.5-9B-Chat                      | 13h 54m      | 12h 15m         |                            9 |                        0.5399 |
-| deepseek-ai_DeepSeek-R1-0528-Qwen3-8B     | 17h 57m      | 15h 30m         |                           10 |                        0.5387 |
-| google_gemma-3-4b-it                      | 4h 51m       | 3h 50m          |                           11 |                        0.5374 |
-| meta-llama_Llama-3.1-8B-Instruct          | 12h 19m      | 10h 52m         |                           12 |                        0.5366 |
-| meta-llama_Meta-Llama-3-8B-Instruct       | 6h 30m       | 5h 46m          |                           13 |                        0.5286 |
-| Qwen_Qwen2-7B-Instruct                    | 11h 30m      | 10h 11m         |                           14 |                        0.5285 |
-| Qwen_Qwen2.5-7B-Instruct-1M               | 11h 17m      | 10h 10m         |                           15 |                        0.5245 |
-| 01-ai_Yi-1.5-9B                           | 11h 43m      | 10h 26m         |                           16 |                        0.5206 |
-| NousResearch_Hermes-2-Pro-Mistral-7B      | 8h 27m       | 7h 28m          |                           17 |                        0.5184 |
-| Qwen_Qwen2.5-Math-7B                      | 27h 21m      | 24h 38m         |                           18 |                        0.501  |
-| 01-ai_Yi-1.5-6B-Chat                      | 8h 4m        | 7h 1m           |                           19 |                        0.5006 |
-| Qwen_Qwen2.5-Math-7B-Instruct             | 5h 37m       | 4h 57m          |                           20 |                        0.4997 |
-| deepseek-ai_DeepSeek-R1-Distill-Qwen-7B   | 6h 28m       | 5h 43m          |                           21 |                        0.4841 |
-| mistralai_Mistral-7B-Instruct-v0.3        | 8h 38m       | 7h 41m          |                           22 |                        0.4704 |
-| meta-llama_Llama-3.2-3B-Instruct          | 7h 12m       | 5h 57m          |                           23 |                        0.4688 |
-| 01-ai_Yi-1.5-6B                           | 4h 28m       | 3h 54m          |                           24 |                        0.4495 |
-| Qwen_Qwen3-1.7B                           | 4h 25m       | 3h 36m          |                           25 |                        0.4493 |
-| deepseek-ai_DeepSeek-R1-Distill-Llama-8B  | 11h 46m      | 10h 36m         |                           26 |                        0.4469 |
-| deepseek-ai_deepseek-llm-7b-chat          | 10h 6m       | 9h 8m           |                           27 |                        0.4244 |
-| meta-llama_Llama-2-13b-chat-hf            | 17h 8m       | 15h 37m         |                           28 |                        0.4143 |
-| Qwen_Qwen2.5-Math-1.5B-Instruct           | 3h 25m       | 2h 39m          |                           29 |                        0.4085 |
-| deepseek-ai_DeepSeek-R1-Distill-Qwen-1.5B | 3h 40m       | 2h 52m          |                           30 |                        0.4009 |
-| Qwen_Qwen2.5-1.5B-Instruct                | 3h 20m       | 2h 36m          |                           31 |                        0.3874 |
-| Qwen_Qwen2.5-3B-Instruct                  | 7h 48m       | 6h 30m          |                           32 |                        0.3823 |
-| meta-llama_Llama-2-13b-hf                 | 19h 21m      | 17h 38m         |                           33 |                        0.3719 |
-| deepseek-ai_deepseek-math-7b-rl           | 8h 2m        | 7h 12m          |                           34 |                        0.3702 |
-| meta-llama_Llama-2-7b-chat-hf             | 6h 57m       | 6h 7m           |                           35 |                        0.3674 |
-| Qwen_Qwen3-0.6B                           | 3h 45m       | 2h 53m          |                           36 |                        0.3494 |
-| meta-llama_Llama-3.2-1B-Instruct          | 3h 30m       | 2h 35m          |                           37 |                        0.345  |
-| deepseek-ai_deepseek-llm-7b-base          | 7h 11m       | 6h 26m          |                           38 |                        0.3377 |
-| meta-llama_Llama-2-7b-hf                  | 5h 42m       | 4h 59m          |                           39 |                        0.3361 |
-| google_gemma-3-1b-it                      | 6h 50m       | 4h 52m          |                           40 |                        0.3312 |
-| Qwen_Qwen2.5-0.5B-Instruct                | 2h 34m       | 1h 48m          |                           41 |                        0.2914 |
+| Model Name                                | Total Time   | GPU Util Time   |   Reasoning & Math Mean Score |   Reasoning & Math Avg. Rank |
+|:------------------------------------------|:-------------|:----------------|------------------------------:|-----------------------------:|
+| google_gemma-3-12b-it                     | 15h 45m      | 14h 8m          |                        0.6266 |                            1 |
+| Qwen_Qwen3-8B                             | 15h 31m      | 13h 44m         |                        0.6214 |                            2 |
+| Qwen_Qwen3-14B (8bit)                     | 29h 45m      | 17h 29m         |                        0.586  |                            3 |
+| Qwen_Qwen3-4B                             | 5h 51m       | 5h 3m           |                        0.5712 |                            4 |
+| Qwen_Qwen2.5-7B-Instruct                  | 9h 36m       | 8h 33m          |                        0.5541 |                            5 |
+| openchat_openchat-3.6-8b-20240522         | 7h 51m       | 6h 59m          |                        0.5505 |                            6 |
+| Qwen_Qwen2.5-14B-Instruct (8bit)          | 52h 44m      | 29h 32m         |                        0.5488 |                            7 |
+| mistralai_Ministral-8B-Instruct-2410      | 10h 46m      | 9h 27m          |                        0.5446 |                            8 |
+| 01-ai_Yi-1.5-9B-Chat                      | 13h 54m      | 12h 15m         |                        0.5399 |                            9 |
+| deepseek-ai_DeepSeek-R1-0528-Qwen3-8B     | 17h 57m      | 15h 30m         |                        0.5387 |                           10 |
+| google_gemma-3-4b-it                      | 4h 51m       | 3h 50m          |                        0.5374 |                           11 |
+| meta-llama_Llama-3.1-8B-Instruct          | 12h 19m      | 10h 52m         |                        0.5366 |                           12 |
+| meta-llama_Meta-Llama-3-8B-Instruct       | 6h 30m       | 5h 46m          |                        0.5286 |                           13 |
+| Qwen_Qwen2-7B-Instruct                    | 11h 30m      | 10h 11m         |                        0.5285 |                           14 |
+| Qwen_Qwen2.5-7B-Instruct-1M               | 11h 17m      | 10h 10m         |                        0.5245 |                           15 |
+| 01-ai_Yi-1.5-9B                           | 11h 43m      | 10h 26m         |                        0.5206 |                           16 |
+| NousResearch_Hermes-2-Pro-Mistral-7B      | 8h 27m       | 7h 28m          |                        0.5184 |                           17 |
+| Qwen_Qwen2.5-Math-7B                      | 27h 21m      | 24h 38m         |                        0.501  |                           18 |
+| 01-ai_Yi-1.5-6B-Chat                      | 8h 4m        | 7h 1m           |                        0.5006 |                           19 |
+| Qwen_Qwen2.5-Math-7B-Instruct             | 5h 37m       | 4h 57m          |                        0.4997 |                           20 |
+| deepseek-ai_DeepSeek-R1-Distill-Qwen-7B   | 6h 28m       | 5h 43m          |                        0.4841 |                           21 |
+| mistralai_Mistral-7B-Instruct-v0.3        | 8h 38m       | 7h 41m          |                        0.4704 |                           22 |
+| meta-llama_Llama-3.2-3B-Instruct          | 7h 12m       | 5h 57m          |                        0.4688 |                           23 |
+| 01-ai_Yi-1.5-6B                           | 4h 28m       | 3h 54m          |                        0.4495 |                           24 |
+| Qwen_Qwen3-1.7B                           | 4h 25m       | 3h 36m          |                        0.4493 |                           25 |
+| deepseek-ai_DeepSeek-R1-Distill-Llama-8B  | 11h 46m      | 10h 36m         |                        0.4469 |                           26 |
+| deepseek-ai_deepseek-llm-7b-chat          | 10h 6m       | 9h 8m           |                        0.4244 |                           27 |
+| meta-llama_Llama-2-13b-chat-hf            | 17h 8m       | 15h 37m         |                        0.4143 |                           28 |
+| Qwen_Qwen2.5-Math-1.5B-Instruct           | 3h 25m       | 2h 39m          |                        0.4085 |                           29 |
+| deepseek-ai_DeepSeek-R1-Distill-Qwen-1.5B | 3h 40m       | 2h 52m          |                        0.4009 |                           30 |
+| Qwen_Qwen2.5-1.5B-Instruct                | 3h 20m       | 2h 36m          |                        0.3874 |                           31 |
+| Qwen_Qwen2.5-3B-Instruct                  | 7h 48m       | 6h 30m          |                        0.3823 |                           32 |
+| meta-llama_Llama-2-13b-hf                 | 19h 21m      | 17h 38m         |                        0.3719 |                           33 |
+| deepseek-ai_deepseek-math-7b-rl           | 8h 2m        | 7h 12m          |                        0.3702 |                           34 |
+| meta-llama_Llama-2-7b-chat-hf             | 6h 57m       | 6h 7m           |                        0.3674 |                           35 |
+| Qwen_Qwen3-0.6B                           | 3h 45m       | 2h 53m          |                        0.3494 |                           36 |
+| meta-llama_Llama-3.2-1B-Instruct          | 3h 30m       | 2h 35m          |                        0.345  |                           37 |
+| deepseek-ai_deepseek-llm-7b-base          | 7h 11m       | 6h 26m          |                        0.3377 |                           38 |
+| meta-llama_Llama-2-7b-hf                  | 5h 42m       | 4h 59m          |                        0.3361 |                           39 |
+| google_gemma-3-1b-it                      | 6h 50m       | 4h 52m          |                        0.3312 |                           40 |
+| Qwen_Qwen2.5-0.5B-Instruct                | 2h 34m       | 1h 48m          |                        0.2914 |                           41 |
+
 
 # Commonsense & NLI (Average Rank)
 
-| Model Name                                | Total Time   | GPU Util Time   |   Commonsense & NLI Avg. Rank |   Commonsense & NLI Mean Score |
-|:------------------------------------------|:-------------|:----------------|------------------------------:|-------------------------------:|
-| Qwen_Qwen2.5-14B-Instruct (8bit)          | 52h 44m      | 29h 32m         |                             1 |                         0.7941 |
-| Qwen_Qwen3-14B (8bit)                     | 29h 45m      | 17h 29m         |                             2 |                         0.7807 |
-| google_gemma-3-12b-it                     | 15h 45m      | 14h 8m          |                             3 |                         0.7737 |
-| Qwen_Qwen2.5-7B-Instruct                  | 9h 36m       | 8h 33m          |                             4 |                         0.773  |
-| openchat_openchat-3.6-8b-20240522         | 7h 51m       | 6h 59m          |                             5 |                         0.7726 |
-| 01-ai_Yi-1.5-9B-Chat                      | 13h 54m      | 12h 15m         |                             6 |                         0.7691 |
-| Qwen_Qwen2.5-7B-Instruct-1M               | 11h 17m      | 10h 10m         |                             7 |                         0.7564 |
-| Qwen_Qwen3-8B                             | 15h 31m      | 13h 44m         |                             8 |                         0.7468 |
-| mistralai_Mistral-7B-Instruct-v0.3        | 8h 38m       | 7h 41m          |                             9 |                         0.7403 |
-| 01-ai_Yi-1.5-6B-Chat                      | 8h 4m        | 7h 1m           |                            10 |                         0.7374 |
-| Qwen_Qwen2.5-3B-Instruct                  | 7h 48m       | 6h 30m          |                            11 |                         0.7367 |
-| mistralai_Ministral-8B-Instruct-2410      | 10h 46m      | 9h 27m          |                            12 |                         0.7328 |
-| NousResearch_Hermes-2-Pro-Mistral-7B      | 8h 27m       | 7h 28m          |                            13 |                         0.7284 |
-| Qwen_Qwen2-7B-Instruct                    | 11h 30m      | 10h 11m         |                            14 |                         0.7274 |
-| 01-ai_Yi-1.5-9B                           | 11h 43m      | 10h 26m         |                            15 |                         0.7266 |
-| Qwen_Qwen3-4B                             | 5h 51m       | 5h 3m           |                            16 |                         0.7266 |
-| meta-llama_Llama-3.1-8B-Instruct          | 12h 19m      | 10h 52m         |                            17 |                         0.7249 |
-| 01-ai_Yi-1.5-6B                           | 4h 28m       | 3h 54m          |                            18 |                         0.7199 |
-| google_gemma-3-4b-it                      | 4h 51m       | 3h 50m          |                            19 |                         0.7167 |
-| meta-llama_Llama-2-13b-hf                 | 19h 21m      | 17h 38m         |                            20 |                         0.7157 |
-| meta-llama_Llama-2-13b-chat-hf            | 17h 8m       | 15h 37m         |                            21 |                         0.7153 |
-| meta-llama_Meta-Llama-3-8B-Instruct       | 6h 30m       | 5h 46m          |                            22 |                         0.7147 |
-| deepseek-ai_DeepSeek-R1-0528-Qwen3-8B     | 17h 57m      | 15h 30m         |                            23 |                         0.7094 |
-| deepseek-ai_deepseek-llm-7b-chat          | 10h 6m       | 9h 8m           |                            24 |                         0.709  |
-| meta-llama_Llama-2-7b-chat-hf             | 6h 57m       | 6h 7m           |                            25 |                         0.6978 |
-| meta-llama_Llama-2-7b-hf                  | 5h 42m       | 4h 59m          |                            26 |                         0.6956 |
-| deepseek-ai_DeepSeek-R1-Distill-Llama-8B  | 11h 46m      | 10h 36m         |                            27 |                         0.6928 |
-| deepseek-ai_deepseek-llm-7b-base          | 7h 11m       | 6h 26m          |                            28 |                         0.6886 |
-| Qwen_Qwen2.5-1.5B-Instruct                | 3h 20m       | 2h 36m          |                            29 |                         0.6803 |
-| meta-llama_Llama-3.2-3B-Instruct          | 7h 12m       | 5h 57m          |                            30 |                         0.6788 |
-| deepseek-ai_deepseek-math-7b-rl           | 8h 2m        | 7h 12m          |                            31 |                         0.6711 |
-| Qwen_Qwen2.5-Math-7B                      | 27h 21m      | 24h 38m         |                            32 |                         0.6587 |
-| Qwen_Qwen3-1.7B                           | 4h 25m       | 3h 36m          |                            33 |                         0.6442 |
-| deepseek-ai_DeepSeek-R1-Distill-Qwen-7B   | 6h 28m       | 5h 43m          |                            34 |                         0.6422 |
-| google_gemma-3-1b-it                      | 6h 50m       | 4h 52m          |                            35 |                         0.6267 |
-| meta-llama_Llama-3.2-1B-Instruct          | 3h 30m       | 2h 35m          |                            36 |                         0.6264 |
-| Qwen_Qwen2.5-Math-7B-Instruct             | 5h 37m       | 4h 57m          |                            37 |                         0.6184 |
-| Qwen_Qwen2.5-0.5B-Instruct                | 2h 34m       | 1h 48m          |                            38 |                         0.6039 |
-| deepseek-ai_DeepSeek-R1-Distill-Qwen-1.5B | 3h 40m       | 2h 52m          |                            39 |                         0.5703 |
-| Qwen_Qwen3-0.6B                           | 3h 45m       | 2h 53m          |                            40 |                         0.5696 |
-| Qwen_Qwen2.5-Math-1.5B-Instruct           | 3h 25m       | 2h 39m          |                            41 |                         0.5181 |
-
+| Model Name                                | Total Time   | GPU Util Time   |   Commonsense & NLI Mean Score |   Commonsense & NLI Avg. Rank |
+|:------------------------------------------|:-------------|:----------------|-------------------------------:|------------------------------:|
+| Qwen_Qwen2.5-14B-Instruct (8bit)          | 52h 44m      | 29h 32m         |                         0.7941 |                             1 |
+| Qwen_Qwen3-14B (8bit)                     | 29h 45m      | 17h 29m         |                         0.7807 |                             2 |
+| google_gemma-3-12b-it                     | 15h 45m      | 14h 8m          |                         0.7737 |                             3 |
+| Qwen_Qwen2.5-7B-Instruct                  | 9h 36m       | 8h 33m          |                         0.773  |                             4 |
+| openchat_openchat-3.6-8b-20240522         | 7h 51m       | 6h 59m          |                         0.7726 |                             5 |
+| 01-ai_Yi-1.5-9B-Chat                      | 13h 54m      | 12h 15m         |                         0.7691 |                             6 |
+| Qwen_Qwen2.5-7B-Instruct-1M               | 11h 17m      | 10h 10m         |                         0.7564 |                             7 |
+| Qwen_Qwen3-8B                             | 15h 31m      | 13h 44m         |                         0.7468 |                             8 |
+| mistralai_Mistral-7B-Instruct-v0.3        | 8h 38m       | 7h 41m          |                         0.7403 |                             9 |
+| 01-ai_Yi-1.5-6B-Chat                      | 8h 4m        | 7h 1m           |                         0.7374 |                            10 |
+| Qwen_Qwen2.5-3B-Instruct                  | 7h 48m       | 6h 30m          |                         0.7367 |                            11 |
+| mistralai_Ministral-8B-Instruct-2410      | 10h 46m      | 9h 27m          |                         0.7328 |                            12 |
+| NousResearch_Hermes-2-Pro-Mistral-7B      | 8h 27m       | 7h 28m          |                         0.7284 |                            13 |
+| Qwen_Qwen2-7B-Instruct                    | 11h 30m      | 10h 11m         |                         0.7274 |                            14 |
+| 01-ai_Yi-1.5-9B                           | 11h 43m      | 10h 26m         |                         0.7266 |                            15 |
+| Qwen_Qwen3-4B                             | 5h 51m       | 5h 3m           |                         0.7266 |                            16 |
+| meta-llama_Llama-3.1-8B-Instruct          | 12h 19m      | 10h 52m         |                         0.7249 |                            17 |
+| 01-ai_Yi-1.5-6B                           | 4h 28m       | 3h 54m          |                         0.7199 |                            18 |
+| google_gemma-3-4b-it                      | 4h 51m       | 3h 50m          |                         0.7167 |                            19 |
+| meta-llama_Llama-2-13b-hf                 | 19h 21m      | 17h 38m         |                         0.7157 |                            20 |
+| meta-llama_Llama-2-13b-chat-hf            | 17h 8m       | 15h 37m         |                         0.7153 |                            21 |
+| meta-llama_Meta-Llama-3-8B-Instruct       | 6h 30m       | 5h 46m          |                         0.7147 |                            22 |
+| deepseek-ai_DeepSeek-R1-0528-Qwen3-8B     | 17h 57m      | 15h 30m         |                         0.7094 |                            23 |
+| deepseek-ai_deepseek-llm-7b-chat          | 10h 6m       | 9h 8m           |                         0.709  |                            24 |
+| meta-llama_Llama-2-7b-chat-hf             | 6h 57m       | 6h 7m           |                         0.6978 |                            25 |
+| meta-llama_Llama-2-7b-hf                  | 5h 42m       | 4h 59m          |                         0.6956 |                            26 |
+| deepseek-ai_DeepSeek-R1-Distill-Llama-8B  | 11h 46m      | 10h 36m         |                         0.6928 |                            27 |
+| deepseek-ai_deepseek-llm-7b-base          | 7h 11m       | 6h 26m          |                         0.6886 |                            28 |
+| Qwen_Qwen2.5-1.5B-Instruct                | 3h 20m       | 2h 36m          |                         0.6803 |                            29 |
+| meta-llama_Llama-3.2-3B-Instruct          | 7h 12m       | 5h 57m          |                         0.6788 |                            30 |
+| deepseek-ai_deepseek-math-7b-rl           | 8h 2m        | 7h 12m          |                         0.6711 |                            31 |
+| Qwen_Qwen2.5-Math-7B                      | 27h 21m      | 24h 38m         |                         0.6587 |                            32 |
+| Qwen_Qwen3-1.7B                           | 4h 25m       | 3h 36m          |                         0.6442 |                            33 |
+| deepseek-ai_DeepSeek-R1-Distill-Qwen-7B   | 6h 28m       | 5h 43m          |                         0.6422 |                            34 |
+| google_gemma-3-1b-it                      | 6h 50m       | 4h 52m          |                         0.6267 |                            35 |
+| meta-llama_Llama-3.2-1B-Instruct          | 3h 30m       | 2h 35m          |                         0.6264 |                            36 |
+| Qwen_Qwen2.5-Math-7B-Instruct             | 5h 37m       | 4h 57m          |                         0.6184 |                            37 |
+| Qwen_Qwen2.5-0.5B-Instruct                | 2h 34m       | 1h 48m          |                         0.6039 |                            38 |
+| deepseek-ai_DeepSeek-R1-Distill-Qwen-1.5B | 3h 40m       | 2h 52m          |                         0.5703 |                            39 |
+| Qwen_Qwen3-0.6B                           | 3h 45m       | 2h 53m          |                         0.5696 |                            40 |
+| Qwen_Qwen2.5-Math-1.5B-Instruct           | 3h 25m       | 2h 39m          |                         0.5181 |                            41 |
 
 # Knowledge & Reading (Average Rank)
 
-| Model Name                                | Total Time   | GPU Util Time   |   Knowledge & Reading Avg. Rank |   Knowledge & Reading Mean Score |
-|:------------------------------------------|:-------------|:----------------|--------------------------------:|---------------------------------:|
-| 01-ai_Yi-1.5-9B                           | 11h 43m      | 10h 26m         |                               1 |                           0.4369 |
-| openchat_openchat-3.6-8b-20240522         | 7h 51m       | 6h 59m          |                               2 |                           0.4136 |
-| meta-llama_Llama-3.1-8B-Instruct          | 12h 19m      | 10h 52m         |                               3 |                           0.4127 |
-| 01-ai_Yi-1.5-6B                           | 4h 28m       | 3h 54m          |                               4 |                           0.4063 |
-| mistralai_Mistral-7B-Instruct-v0.3        | 8h 38m       | 7h 41m          |                               5 |                           0.4045 |
-| Qwen_Qwen2.5-7B-Instruct-1M               | 11h 17m      | 10h 10m         |                               6 |                           0.3963 |
-| Qwen_Qwen3-14B (8bit)                     | 29h 45m      | 17h 29m         |                               7 |                           0.3926 |
-| meta-llama_Meta-Llama-3-8B-Instruct       | 6h 30m       | 5h 46m          |                               8 |                           0.3923 |
-| Qwen_Qwen2.5-7B-Instruct                  | 9h 36m       | 8h 33m          |                               9 |                           0.381  |
-| google_gemma-3-12b-it                     | 15h 45m      | 14h 8m          |                              10 |                           0.3791 |
-| NousResearch_Hermes-2-Pro-Mistral-7B      | 8h 27m       | 7h 28m          |                              11 |                           0.3719 |
-| mistralai_Ministral-8B-Instruct-2410      | 10h 46m      | 9h 27m          |                              12 |                           0.3683 |
-| Qwen_Qwen2.5-14B-Instruct (8bit)          | 52h 44m      | 29h 32m         |                              13 |                           0.3581 |
-| Qwen_Qwen3-8B                             | 15h 31m      | 13h 44m         |                              14 |                           0.3566 |
-| 01-ai_Yi-1.5-9B-Chat                      | 13h 54m      | 12h 15m         |                              15 |                           0.3467 |
-| meta-llama_Llama-3.2-3B-Instruct          | 7h 12m       | 5h 57m          |                              16 |                           0.3438 |
-| Qwen_Qwen2.5-3B-Instruct                  | 7h 48m       | 6h 30m          |                              17 |                           0.3406 |
-| meta-llama_Llama-2-13b-hf                 | 19h 21m      | 17h 38m         |                              18 |                           0.3374 |
-| 01-ai_Yi-1.5-6B-Chat                      | 8h 4m        | 7h 1m           |                              19 |                           0.3339 |
-| google_gemma-3-4b-it                      | 4h 51m       | 3h 50m          |                              20 |                           0.3261 |
-| Qwen_Qwen3-4B                             | 5h 51m       | 5h 3m           |                              21 |                           0.3226 |
-| meta-llama_Llama-2-7b-hf                  | 5h 42m       | 4h 59m          |                              22 |                           0.3018 |
-| deepseek-ai_deepseek-llm-7b-chat          | 10h 6m       | 9h 8m           |                              23 |                           0.3007 |
-| Qwen_Qwen2-7B-Instruct                    | 11h 30m      | 10h 11m         |                              24 |                           0.2919 |
-| Qwen_Qwen2.5-1.5B-Instruct                | 3h 20m       | 2h 36m          |                              25 |                           0.2903 |
-| meta-llama_Llama-2-13b-chat-hf            | 17h 8m       | 15h 37m         |                              26 |                           0.2864 |
-| deepseek-ai_deepseek-llm-7b-base          | 7h 11m       | 6h 26m          |                              27 |                           0.2864 |
-| deepseek-ai_DeepSeek-R1-0528-Qwen3-8B     | 17h 57m      | 15h 30m         |                              28 |                           0.2834 |
-| Qwen_Qwen2.5-Math-7B                      | 27h 21m      | 24h 38m         |                              29 |                           0.2827 |
-| deepseek-ai_DeepSeek-R1-Distill-Llama-8B  | 11h 46m      | 10h 36m         |                              30 |                           0.2805 |
-| meta-llama_Llama-3.2-1B-Instruct          | 3h 30m       | 2h 35m          |                              31 |                           0.2731 |
-| meta-llama_Llama-2-7b-chat-hf             | 6h 57m       | 6h 7m           |                              32 |                           0.2656 |
-| deepseek-ai_deepseek-math-7b-rl           | 8h 2m        | 7h 12m          |                              33 |                           0.2581 |
-| Qwen_Qwen3-1.7B                           | 4h 25m       | 3h 36m          |                              34 |                           0.2567 |
-| deepseek-ai_DeepSeek-R1-Distill-Qwen-7B   | 6h 28m       | 5h 43m          |                              35 |                           0.234  |
-| Qwen_Qwen2.5-Math-7B-Instruct             | 5h 37m       | 4h 57m          |                              36 |                           0.2276 |
-| Qwen_Qwen2.5-0.5B-Instruct                | 2h 34m       | 1h 48m          |                              37 |                           0.2218 |
-| google_gemma-3-1b-it                      | 6h 50m       | 4h 52m          |                              38 |                           0.2202 |
-| Qwen_Qwen3-0.6B                           | 3h 45m       | 2h 53m          |                              39 |                           0.2    |
-| Qwen_Qwen2.5-Math-1.5B-Instruct           | 3h 25m       | 2h 39m          |                              40 |                           0.1983 |
-| deepseek-ai_DeepSeek-R1-Distill-Qwen-1.5B | 3h 40m       | 2h 52m          |                              41 |                           0.1954 |
+| Model Name                                | Total Time   | GPU Util Time   |   Knowledge & Reading Mean Score |   Knowledge & Reading Avg. Rank |
+|:------------------------------------------|:-------------|:----------------|---------------------------------:|--------------------------------:|
+| 01-ai_Yi-1.5-9B                           | 11h 43m      | 10h 26m         |                           0.4369 |                               1 |
+| openchat_openchat-3.6-8b-20240522         | 7h 51m       | 6h 59m          |                           0.4136 |                               2 |
+| meta-llama_Llama-3.1-8B-Instruct          | 12h 19m      | 10h 52m         |                           0.4127 |                               3 |
+| 01-ai_Yi-1.5-6B                           | 4h 28m       | 3h 54m          |                           0.4063 |                               4 |
+| mistralai_Mistral-7B-Instruct-v0.3        | 8h 38m       | 7h 41m          |                           0.4045 |                               5 |
+| Qwen_Qwen2.5-7B-Instruct-1M               | 11h 17m      | 10h 10m         |                           0.3963 |                               6 |
+| Qwen_Qwen3-14B (8bit)                     | 29h 45m      | 17h 29m         |                           0.3926 |                               7 |
+| meta-llama_Meta-Llama-3-8B-Instruct       | 6h 30m       | 5h 46m          |                           0.3923 |                               8 |
+| Qwen_Qwen2.5-7B-Instruct                  | 9h 36m       | 8h 33m          |                           0.381  |                               9 |
+| google_gemma-3-12b-it                     | 15h 45m      | 14h 8m          |                           0.3791 |                              10 |
+| NousResearch_Hermes-2-Pro-Mistral-7B      | 8h 27m       | 7h 28m          |                           0.3719 |                              11 |
+| mistralai_Ministral-8B-Instruct-2410      | 10h 46m      | 9h 27m          |                           0.3683 |                              12 |
+| Qwen_Qwen2.5-14B-Instruct (8bit)          | 52h 44m      | 29h 32m         |                           0.3581 |                              13 |
+| Qwen_Qwen3-8B                             | 15h 31m      | 13h 44m         |                           0.3566 |                              14 |
+| 01-ai_Yi-1.5-9B-Chat                      | 13h 54m      | 12h 15m         |                           0.3467 |                              15 |
+| meta-llama_Llama-3.2-3B-Instruct          | 7h 12m       | 5h 57m          |                           0.3438 |                              16 |
+| Qwen_Qwen2.5-3B-Instruct                  | 7h 48m       | 6h 30m          |                           0.3406 |                              17 |
+| meta-llama_Llama-2-13b-hf                 | 19h 21m      | 17h 38m         |                           0.3374 |                              18 |
+| 01-ai_Yi-1.5-6B-Chat                      | 8h 4m        | 7h 1m           |                           0.3339 |                              19 |
+| google_gemma-3-4b-it                      | 4h 51m       | 3h 50m          |                           0.3261 |                              20 |
+| Qwen_Qwen3-4B                             | 5h 51m       | 5h 3m           |                           0.3226 |                              21 |
+| meta-llama_Llama-2-7b-hf                  | 5h 42m       | 4h 59m          |                           0.3018 |                              22 |
+| deepseek-ai_deepseek-llm-7b-chat          | 10h 6m       | 9h 8m           |                           0.3007 |                              23 |
+| Qwen_Qwen2-7B-Instruct                    | 11h 30m      | 10h 11m         |                           0.2919 |                              24 |
+| Qwen_Qwen2.5-1.5B-Instruct                | 3h 20m       | 2h 36m          |                           0.2903 |                              25 |
+| meta-llama_Llama-2-13b-chat-hf            | 17h 8m       | 15h 37m         |                           0.2864 |                              26 |
+| deepseek-ai_deepseek-llm-7b-base          | 7h 11m       | 6h 26m          |                           0.2864 |                              27 |
+| deepseek-ai_DeepSeek-R1-0528-Qwen3-8B     | 17h 57m      | 15h 30m         |                           0.2834 |                              28 |
+| Qwen_Qwen2.5-Math-7B                      | 27h 21m      | 24h 38m         |                           0.2827 |                              29 |
+| deepseek-ai_DeepSeek-R1-Distill-Llama-8B  | 11h 46m      | 10h 36m         |                           0.2805 |                              30 |
+| meta-llama_Llama-3.2-1B-Instruct          | 3h 30m       | 2h 35m          |                           0.2731 |                              31 |
+| meta-llama_Llama-2-7b-chat-hf             | 6h 57m       | 6h 7m           |                           0.2656 |                              32 |
+| deepseek-ai_deepseek-math-7b-rl           | 8h 2m        | 7h 12m          |                           0.2581 |                              33 |
+| Qwen_Qwen3-1.7B                           | 4h 25m       | 3h 36m          |                           0.2567 |                              34 |
+| deepseek-ai_DeepSeek-R1-Distill-Qwen-7B   | 6h 28m       | 5h 43m          |                           0.234  |                              35 |
+| Qwen_Qwen2.5-Math-7B-Instruct             | 5h 37m       | 4h 57m          |                           0.2276 |                              36 |
+| Qwen_Qwen2.5-0.5B-Instruct                | 2h 34m       | 1h 48m          |                           0.2218 |                              37 |
+| google_gemma-3-1b-it                      | 6h 50m       | 4h 52m          |                           0.2202 |                              38 |
+| Qwen_Qwen3-0.6B                           | 3h 45m       | 2h 53m          |                           0.2    |                              39 |
+| Qwen_Qwen2.5-Math-1.5B-Instruct           | 3h 25m       | 2h 39m          |                           0.1983 |                              40 |
+| deepseek-ai_DeepSeek-R1-Distill-Qwen-1.5B | 3h 40m       | 2h 52m          |                           0.1954 |                              41 |
 
 ---
 This project required 18 days 8 hours of machine runtime and 14 days 23 hours of RTX 5090 GPU time, calculated as if the GPU were running at 100% utilization.
