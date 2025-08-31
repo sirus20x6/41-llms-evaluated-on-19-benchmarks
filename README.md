@@ -240,4 +240,4 @@ Benchmarks were referenced from [leobeeson/llm_benchmarks](https://github.com/le
 ---
 This project required 18 days 8 hours of machine runtime and 14 days 23 hours of RTX 5090 GPU time, calculated as if the GPU were running at 100% utilization.
 
-The environmental impact caused by this project was mitigated through my active use of public transportation.
+The environmental impact caused by this project was mitigated through my active use of public transportation. :)
