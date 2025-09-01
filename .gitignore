@@ -1,1 +1,10 @@
-.ipynb_checkpoints
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Benchmark outputs and logs (generated)
+results/
+results_json/
+results_tables/
+
+# Top-level run log (generated)
+main_log.txt
